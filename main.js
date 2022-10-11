@@ -11,7 +11,7 @@ const showParticipants = (data) => {
         arrayAuxiliar.push(element.name);
     });
 
-    $("#users").text("Participants: " + arrayAuxiliar);
+    //$("#users").text("Participants: " + arrayAuxiliar);
     $("#users").html("<string>Participants: </string>" + arrayAuxiliar);
 
 }
@@ -22,7 +22,7 @@ const showParticipants = (data) => {
 const getWinner = (data) => {
 
     const aleat = Math.floor(Math.random() * data.length);
-    $("#selected").html("<strong>Seleccionado: </strong>" + data[alert].name);
+    $("#selected").html("<strong>Seleccionado: </strong>" + data[aleat].name);
 
 }
 
