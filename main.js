@@ -41,7 +41,7 @@ $(document).ready(function () {
 
             particiapants = response;
 
-            showParticipants(particiapants);
+            showParticipants(participants);
 
 
         }, error: function (error) {
@@ -53,8 +53,9 @@ $(document).ready(function () {
 
     $(".btn").click(function () {
 
-        getWinner(particiapants);
 
+        getWinner(participants);
+        
     });
 
 
