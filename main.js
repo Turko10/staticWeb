@@ -17,10 +17,12 @@ const showParticipants = (data) => {
 }
 
 
+
+
 const getWinner = (data) => {
 
     const aleat = Math.floor(Math.random() * data.length);
-    $("#selected").html("<strong>Seleccionado: </strong>" + data[alert]);
+    $("#selected").html("<strong>Seleccionado: </strong>" + data[alert].name);
 
 }
 

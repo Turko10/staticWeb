@@ -1,16 +1,9 @@
-/*
-
-"#" para atributos
-"." para clases
-
-*/
-#users {
-
-    color: blue;
-
+#users{
+    color:rebeccapurple
 }
-
-/*#selected {}
-
-.btn {}
-*/
+#selected{
+    color:aqua
+}
+.btn{
+    background-color:yellowgreen ;
+}
